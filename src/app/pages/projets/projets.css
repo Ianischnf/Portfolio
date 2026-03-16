@@ -1,0 +1,13 @@
+.projets_container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 10px 0 10px;
+}
+
+
+.projets_container{
+    flex: 1;
+    padding-top: 100px;
+}
