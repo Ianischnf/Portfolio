@@ -1,0 +1,30 @@
+.layout_contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_contact {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    gap: 60px;
+}
+
+.container_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    color:#fff;
+}
+
+hr{
+    width: 150px;
+}
