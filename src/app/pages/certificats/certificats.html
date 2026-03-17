@@ -1,1 +1,8 @@
-<p>certificats works!</p>
+<div class="layout_certificats">
+    <app-menu></app-menu>
+    <div class="container_certificats">
+        <app-certificat *ngFor="let c of certificats" [ImageCertificat]=c.ImageCertificat
+            [NomCertificat]=c.NomCertificat [IconLink]=c.IconLink [LinkCertificat]=c.LinkCertificat
+            [Description]=c.Description [Temps]=c.Temps></app-certificat>
+    </div>
+</div>
