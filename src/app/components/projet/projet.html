@@ -1,0 +1,20 @@
+<div class="projet_container">
+    <div class="projet_left">
+        <div>
+            <img class="img_projet" [src]="ImageProjet" alt="">
+        </div>
+        <div>
+            <h2>{{ NomProjet }}</h2>
+            <p>{{ StackProjet }}</p>
+            <p>{{DescriptionProjet}}</p>
+        </div>
+    </div>
+    <div class="projet_right">
+        <a [href]="UrlGithub">
+            <img class="img_link" [src]="IconGithub" alt="">
+        </a>
+        <a [href]="UrlPorjet">
+            <img class="img_link" [src]="IconLien" alt="">
+        </a>
+    </div>
+</div>
