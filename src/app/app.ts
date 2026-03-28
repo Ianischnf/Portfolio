@@ -4,7 +4,7 @@ import { Acceuil } from "./pages/acceuil/acceuil";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Acceuil],
+  imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
