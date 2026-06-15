@@ -80,3 +80,77 @@
 p {
   font-size:20px;
 }
+.number_line {
+  color : grey
+}
+
+
+.terminal {
+  width: 80vh;
+  border: 2px solid #471396;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0b1120;
+  box-shadow: 0 0 35px rgba(71, 19, 150, 0.35);
+  font-family: "Fira Code", monospace;
+}
+
+.terminal_header {
+  height: 40px;
+  background: #111827;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+}
+
+.terminal_header span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.terminal_header span:nth-child(1) {
+  background: #ff5f56;
+}
+
+.terminal_header span:nth-child(2) {
+  background: #ffbd2e;
+}
+
+.terminal_header span:nth-child(3) {
+  background: #27c93f;
+}
+
+.terminal_body {
+  padding: 24px;
+  color: white;
+}
+
+.terminal_body p {
+  margin: 6px 0;
+  font-size: 20px;
+}
+
+.prompt {
+  color: #8b5cf6;
+}
+
+.result {
+  color: #e5e7eb;
+  padding-left: 20px;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+
+  51%, 100% {
+    opacity: 0;
+  }
+}

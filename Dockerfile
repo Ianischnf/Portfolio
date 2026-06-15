@@ -10,4 +10,4 @@ RUN npm run build -- --configuration production
 FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY --from=build /app/dist/portoflio/brower /usr/share/nginx/html
+COPY --from=build /app/dist/Portfolio/browser /usr/share/nginx/html
